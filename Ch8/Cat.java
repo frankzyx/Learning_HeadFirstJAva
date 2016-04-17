@@ -1,13 +1,13 @@
-class Cat {
-	int age;
-	String name;
-	String breed;
+public class Cat extends Feline{
 	
-	void meow() {
+	public void makeNoise() {
 		System.out.println("Meow");
 	}
 	
-	void Hiss() {
-		System.out.println("HA!");
+	public void eat() {
+		hunger -= 8;
+		if (hunger < 0) {
+			hunger = 0;
+		}
 	}
 }

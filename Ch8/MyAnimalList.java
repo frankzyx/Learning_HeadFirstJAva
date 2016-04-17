@@ -1,8 +1,8 @@
 // polymorphism
 
 public class MyAnimalList {
-	private Animal[] animals = new Animal[5];
-	private int nextIndex = 0;
+	Animal[] animals = new Animal[5];
+	int nextIndex = 0;
 	
 	public void add(Animal d) {
 		if (nextIndex < animals.length) {

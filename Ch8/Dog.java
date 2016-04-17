@@ -1,9 +1,6 @@
-class Dog {
-	int age;
-	String name;
-	String breed;
+public class Dog extends Canine {
 	
-	void bark() {
+	public void makeNoise() {
 		System.out.println("Ruff! Ruff!");
 	}
 }
