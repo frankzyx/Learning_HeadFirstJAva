@@ -10,6 +10,7 @@ abstract public class Feline extends Animal {
 	}
 
 	public void roam() {
-		System.out.println("I'm roaming around on my own...");
+		super.roam();
+		System.out.println("But...On my own...");
 	}
 }

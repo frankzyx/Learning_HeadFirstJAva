@@ -11,6 +11,11 @@ public class Cat extends Feline implements Pet {
 		}
 	}
 	
+	public void roam() {
+		super.roam();
+		System.out.println("'cause I'm a kitty");
+	}
+	
 	public void beFriendly() {
 		System.out.println("I'm a nice cat");
 	}
