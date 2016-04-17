@@ -9,9 +9,12 @@ public class AnimalTests {
 		a.eat();
 		a.getHunger();
 		a.roam();
+		System.out.println();
 		
-		a.play();
-		a.beFriendly();
+		Pet c = new Dog();
+		c.beFriendly();
+		c.play();
+		
 		
 	}
 }
