@@ -1,6 +1,6 @@
 public class AnimalTests {
 	public static void main(String[] args) {
-		Cat a = new Cat();
+		Animal a = new Cat();
 		
 		a.sleep();
 		a.sleep();
