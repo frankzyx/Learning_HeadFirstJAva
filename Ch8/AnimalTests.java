@@ -11,7 +11,8 @@ public class AnimalTests {
 		a.roam();
 		System.out.println();
 		
-		Pet c = new Dog();
+		// test constructors
+		Pet c = new Dog("Max");
 		c.beFriendly();
 		c.play();
 		System.out.println();
