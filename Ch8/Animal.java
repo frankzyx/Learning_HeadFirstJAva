@@ -9,17 +9,17 @@ abstract public class Animal {
 		System.out.println("Making an animal");
 	}
 	
-<<<<<<< HEAD
+
 	public Animal(String n) {
 		name = n;
 		System.out.println("Making an animal");
 	}
-=======
+
 	public Animal(String nm) {
 		name = nm;
 		System.out.println("Making an animal with a name");
 	}	
->>>>>>> master
+
 	
 	public void getHunger() {
 		System.out.println("hunger = " + hunger);

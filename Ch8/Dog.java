@@ -1,15 +1,15 @@
 public class Dog extends Canine implements Pet {
 	
-<<<<<<< HEAD
+
 	public Dog() {
 		System.out.println("Making a dog");
 	}
-=======
+
 	public Dog(String nm) {
 		super(nm);
 		System.out.println("Making an dog with a name");
 	}	
->>>>>>> master
+
 	
 	public void makeNoise() {
 		System.out.println("Ruff! Ruff!");
