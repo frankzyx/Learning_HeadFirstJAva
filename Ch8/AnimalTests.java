@@ -1,7 +1,7 @@
 public class AnimalTests {
 	public static void main(String[] args) {
-		Animal a = new Cat();
-		
+		Animal a = new Dog();
+		a.getName();
 		a.sleep();
 		a.sleep();
 		a.makeNoise();
@@ -11,15 +11,19 @@ public class AnimalTests {
 		a.roam();
 		System.out.println();
 		
-		// test constructors
+		// test interface
 		Pet c = new Dog("Max");
 		c.beFriendly();
 		c.play();
 		System.out.println();
 		
-		// test constructors
+		Animal d = new Dog("Max");
+		d.getName();
+		System.out.println();
+		
 		// Hippo constructors called first, finished last (stack: LIFO)
-		Hippo h = new Hippo("Buffy");
+		Animal h = new Hippo("Buffy");
+		h.getName();
 		
 	}
 }

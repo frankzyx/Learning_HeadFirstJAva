@@ -1,11 +1,11 @@
 abstract public class Canine extends Animal {
 	public Canine() {
-		System.out.println("Making a canine");
+		this("defaultCanine");
 	}
 
 	public Canine(String nm) {
 		super(nm);
-		System.out.println("Making an canine with a name");
+		System.out.println("Making an canine");
 	}	
 	
 	public abstract void makeNoise();

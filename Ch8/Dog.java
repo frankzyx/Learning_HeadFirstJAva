@@ -2,12 +2,12 @@ public class Dog extends Canine implements Pet {
 	
 
 	public Dog() {
-		System.out.println("Making a dog");
+		this("defaultDog");
 	}
 
 	public Dog(String nm) {
 		super(nm);
-		System.out.println("Making an dog with a name");
+		System.out.println("Making an dog");
 	}	
 
 	

@@ -6,7 +6,7 @@ abstract public class Animal {
 	protected int hunger = 10;
 	
 	public Animal() {
-		System.out.println("Making an animal");
+		this("defaultAnimal");
 	}
 	
 
@@ -15,11 +15,9 @@ abstract public class Animal {
 		System.out.println("Making an animal");
 	}
 
-	public Animal(String nm) {
-		name = nm;
-		System.out.println("Making an animal with a name");
-	}	
-
+	public void getName() {
+		System.out.println("My name is " + name);
+	}
 	
 	public void getHunger() {
 		System.out.println("hunger = " + hunger);
