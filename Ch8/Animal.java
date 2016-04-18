@@ -5,6 +5,15 @@ abstract public class Animal {
 	protected String name;
 	protected int hunger = 10;
 	
+	public Animal() {
+		System.out.println("Making an animal");
+	}
+	
+	public Animal(String n) {
+		name = n;
+		System.out.println("Making an animal");
+	}
+	
 	public void getHunger() {
 		System.out.println("hunger = " + hunger);
 	}

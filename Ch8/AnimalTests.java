@@ -14,7 +14,11 @@ public class AnimalTests {
 		Pet c = new Dog();
 		c.beFriendly();
 		c.play();
+		System.out.println();
 		
+		// test constructors
+		// Hippo constructors called first, finished last (stack: LIFO)
+		Hippo h = new Hippo("Buffy");
 		
 	}
 }

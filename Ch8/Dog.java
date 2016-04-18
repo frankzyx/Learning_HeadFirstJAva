@@ -1,5 +1,9 @@
 public class Dog extends Canine implements Pet {
 	
+	public Dog() {
+		System.out.println("Making a dog");
+	}
+	
 	public void makeNoise() {
 		System.out.println("Ruff! Ruff!");
 	}

@@ -1,6 +1,8 @@
 abstract public class Canine extends Animal {
 	
-	
+	public Canine() {
+		System.out.println("Making a canine");
+	}
 	public abstract void makeNoise();
 	public void eat() {
 		hunger -= 5;
