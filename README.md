@@ -1,2 +1,2 @@
-# Learning_HeadFirstJAva
+# Learning_HeadFirstJava
 code from first learning Java
