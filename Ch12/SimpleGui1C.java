@@ -6,7 +6,7 @@ import javax.swing.*;
 class SimpleGui1C {
 	public void go() {
 		JFrame frame = new JFrame();
-		MyDrawPanel panel = new MyDrawPanel();
+		MyImagePanel panel = new MyImagePanel();
 		
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().add(panel);
@@ -22,12 +22,9 @@ class SimpleGui1C {
 	
 }
 
-class MyDrawPanel extends JPanel {
+class MyImagePanel extends JPanel {
 	// never call this method myself
 	public void paintComponent(Graphics g) {
-		// g.setColor(Color.orange);
-		// g.fillRect(10,20,100,100);
-		
 		Image im = new ImageIcon("home_cat.jpg").getImage();
 		g.drawImage(im, 10, 15, this);
 	}

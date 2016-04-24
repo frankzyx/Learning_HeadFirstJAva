@@ -21,19 +21,3 @@ class SimpleGui1D {
 	}
 	
 }
-
-class MyDrawPanel extends JPanel {
-	// override paintComponent(Graphics g) for different purposes
-	// now draw random color circle
-	public void paintComponent(Graphics g) {
-		// fill with black (default color)
-		g.fillRect(0, 0, this.getWidth(), this.getHeight());
-		
-		int red = (int) (Math.random() * 255);
-		int green = (int) (Math.random() * 255);
-		int blue = (int) (Math.random() * 255);
-		Color randColor = new Color(red, green, blue);
-		g.setColor(randColor);
-		g.fillOval(70,70,100,100);
-	}
-}
