@@ -42,7 +42,7 @@ public class SimpleAnimation {
 			g.setColor(Color.white);
 			g.fillRect(0, 0, this.getWidth(), this.getHeight());
 			g.setColor(Color.green);
-			g.fillOval(x,y,200-x,200-y);
+			g.fillOval(x,y,40,40);
 		}
 	}
 	
