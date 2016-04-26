@@ -8,6 +8,7 @@ public class Area1 {
 	
 	JTextArea area;
 	JCheckBox check;
+
 	static int count = 0;
 	
 	public static void main(String[] args) {
@@ -19,11 +20,11 @@ public class Area1 {
 		JFrame frame = new JFrame();
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
-		// button in SOUTH
+		// button
 		JButton button = new JButton("Click me");
 		button.addActionListener(new ButtonListener());
 		
-		// panel in NORTH
+		// panel
 		JPanel panel = new JPanel();
 		
 		// new text area on panel
@@ -36,15 +37,15 @@ public class Area1 {
 		// and only add the scroller
 		panel.add(scroller);
 		
-		// check box in CENTER
+		// check box
 		check = new JCheckBox("double increment");
 		check.addItemListener(new CheckListener());
 		check.setSelected(false);
 		
-		frame.getContentPane().add(BorderLayout.NORTH, panel);
 		frame.getContentPane().add(BorderLayout.CENTER, check);
+		frame.getContentPane().add(BorderLayout.NORTH, panel);
 		frame.getContentPane().add(BorderLayout.SOUTH, button);
-		frame.setSize(300,300);
+		frame.setSize(500,500);
 		frame.setVisible(true);
 		
 	}
