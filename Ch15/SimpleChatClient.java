@@ -24,6 +24,7 @@ public class SimpleChatClient {
 		incoming.setLineWrap(true);
 		incoming.setWrapStyleWord(true);
 		incoming.setEditable(false);
+		// automatically scroll to bottom upon updates
 		DefaultCaret caret = (DefaultCaret) incoming.getCaret();
 		caret.setUpdatePolicy(DefaultCaret.ALWAYS_UPDATE);
 		
