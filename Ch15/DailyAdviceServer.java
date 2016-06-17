@@ -35,4 +35,5 @@ public class DailyAdviceServer {
 		DailyAdviceServer server = new DailyAdviceServer();
 		server.go();
 	}
+
 }
