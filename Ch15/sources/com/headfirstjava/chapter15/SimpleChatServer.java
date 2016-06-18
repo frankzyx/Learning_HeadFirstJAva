@@ -1,5 +1,5 @@
 // the chat server
-
+package com.headfirstjava.chapter15;
 import java.io.*;
 import java.net.*;
 import java.util.*;

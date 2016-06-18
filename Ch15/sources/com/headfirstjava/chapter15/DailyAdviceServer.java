@@ -1,5 +1,5 @@
 // Socket is in java.net.Socket
-
+package com.headfirstjava.chapter15;
 import java.net.*;
 import java.io.*;
 

@@ -1,5 +1,5 @@
 // concurrent issues
-
+package com.headfirstjava.chapter15;
 class RyanAndMonicaJob implements Runnable {
 	
 	private BankAccount account = new BankAccount();

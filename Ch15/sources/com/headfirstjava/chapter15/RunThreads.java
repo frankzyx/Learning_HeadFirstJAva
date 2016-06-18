@@ -1,3 +1,5 @@
+package com.headfirstjava.chapter15;
+
 public class RunThreads implements Runnable {
 	
 	public static void main(String[] args) {

@@ -1,5 +1,5 @@
 // Runnable
-
+package com.headfirstjava.chapter15;
 class MyRunnable implements Runnable {
 	
 	public void run() {
